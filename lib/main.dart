@@ -28,9 +28,10 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
 
+  //returned by Navigator
   Contact _contact;
+  //returned by simple_permissions
   Iterable<Contact> _contacts;
-  Permission _permission;
 
   @override
   void initState() {
